@@ -3,8 +3,8 @@ html {
 }
 
 ::selection {
-    background-color: #1c76dd;
-    color: #fff;
+    background-color: hsl(212, 78%, 49%);
+    color: hsl(0, 0%, 90%);
 }
 
 body { 
