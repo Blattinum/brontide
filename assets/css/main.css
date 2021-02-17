@@ -10,7 +10,7 @@ html {
 body { 
     margin: 0;
     padding: 0;
-    /*overflow: hidden;*/
+    overflow-y: hidden;
     background-color: #e6e6e6;
     color: #1c76dd;
     font-size: 7.2rem;
@@ -24,8 +24,8 @@ body {
     align-items: center;
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 728px) {
     body {
-      font-size: 5.2rem;
+      font-size: 5.0rem;
     }
   }
