@@ -29,11 +29,15 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    user-select: none;
 }
 
 .logo h1 {
     margin: 0;
     padding: 0;
+    background: -webkit-linear-gradient(#003b68, #3A96DD);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 @media screen and (max-width: 728px) {
